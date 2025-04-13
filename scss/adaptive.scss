@@ -1,0 +1,217 @@
+@media (max-width: 1024px) {
+
+	.ticket {
+
+	&__name {
+		font-size: 1.4rem;
+	}
+
+	&__date {
+		font-size: 1.3rem;
+	}
+
+	&__user-name {
+		font-size: 1.2rem;
+	}
+
+	&__user-github-username {
+		font-size: 1rem;
+	}
+
+	&__date {
+		margin-bottom: 1rem;
+	}
+}
+}
+
+
+@media (max-width: 768px) {
+
+	.wrapper {
+		background-image: url('../assets/images/background-tablet.png');
+	}
+
+	.ticket {
+		&__name {
+			font-size: 1.4rem;
+		}
+
+		&__number {
+			font-size: 1.75rem;
+		}
+
+		&__date {
+			font-size: 1.3rem;
+		}
+
+		&__user-name {
+			font-size: 1.2rem;
+		}
+
+		&__user-github-username {
+			font-size: 1rem;
+		}
+	}
+}
+
+@media (max-width: 550px) {
+
+	.ticket {
+		&__name {
+			font-size: 1.4rem;
+		}
+
+		&__user {
+			margin-bottom: 2rem;
+		}
+
+		&__number {
+			font-size: 1.35rem;
+		}
+
+		&__date {
+			font-size: .9rem;
+		}
+
+		&__user-name {
+			font-size: 1.2rem;
+		}
+
+		&__user-github-username {
+			font-size: 1rem;
+		}
+
+		&__user-info {
+			height: 55px;
+		}
+
+		&__user-image {
+			height: 55px;
+			width: 56px;
+		}
+	}
+}
+
+
+@media (max-width: 425px) {
+	
+	.wrapper {
+		background-image: url('../assets/images/background-mobile.png');
+	}
+
+	.ticket {
+		// grid-auto-rows: 45px;
+		&__logo {
+			img {
+				width: 30px;
+				height: 30px;
+			}
+		}
+
+		&__number {
+			font-size: 1rem;
+		}
+
+		&__date {
+			font-size: .8rem;
+		}
+
+		&__user {
+			margin-bottom: 1.5rem;
+		}
+
+		&__user-info {
+			height: 50px;
+		}
+
+		&__user-image {
+			height: 50px;
+			width: 50px;
+		}
+
+		&__user-name, &__user-github-username {
+			font-size: .9rem;
+		}
+	}
+}
+
+@media (max-width: 375px) {
+
+	.ticket {
+		// grid-auto-rows: 40px;
+		&__logo {
+			img {
+				width: 25px;
+				height: 25px;
+			}
+		}
+
+		&__number {
+			font-size: .9rem;
+		}
+
+		&__date {
+			font-size: .7rem;
+		}
+
+		&__user-info {
+			height: 40px;
+		}
+
+		&__user-image {
+			height: 40px;
+			width: 40px;
+		}
+
+		&__user {
+			margin-bottom: 1rem;
+		}
+
+		&__user-name, &__user-github-username {
+			font-size: .7rem;
+		}
+	}
+}
+
+@media (max-width: 325px) {
+
+	.ticket {
+		// grid-auto-rows: 30px;
+		&__logo {
+			img {
+				width: 20px;
+				height: 20px;
+			}
+		}
+
+		&__name {
+			font-size: 1.1rem;
+		}
+
+		&__date {
+			font-size: .6rem;
+		}
+
+		&__user-info {
+			height: 35px;
+		}
+
+		&__user-image {
+			height: 35px;
+			width: 35px;
+		}
+
+		&__user-name, &__user-github-username, &__name {
+			font-size: .6rem;
+		}
+
+		&__user-github-icon {
+			width: 18px;
+			height: 18px;
+		}
+
+		&__number {
+			font-size: .85rem;
+		}
+	}
+}
