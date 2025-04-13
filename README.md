@@ -73,4 +73,3 @@ This project is licensed under the MIT License.
 ## Attribution
 Challenge by [Frontend Mentor](https://www.frontendmentor.io?ref=challenge).
 
-Coded by [Skyl1te](https://github.com/Skyl1te).
